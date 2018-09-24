@@ -7,4 +7,5 @@ def contain_a(element)
 end
 
 def first_wa(array)
-  array
+  array.find { |item| item.start_with?("wa")}
+end
