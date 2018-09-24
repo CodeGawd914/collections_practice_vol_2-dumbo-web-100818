@@ -32,5 +32,8 @@ def merge_data(keys,data)
         mergedPerson = x[name]
         mergedPerson[:first_name] = name
         array << mergedPerson
-      
+      end
+    end
+  end
+  array
 end
