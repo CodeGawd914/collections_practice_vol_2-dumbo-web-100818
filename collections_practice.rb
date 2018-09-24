@@ -24,5 +24,5 @@ count
 end
 
 def merge_data(key,data)
-  key.merege(data)
+  key.merge(data)
 end
