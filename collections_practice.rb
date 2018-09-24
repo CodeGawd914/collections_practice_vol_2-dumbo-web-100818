@@ -55,5 +55,3 @@ def organize_schools(hash)
   end
   haxh
 end
-  
-end
