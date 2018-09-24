@@ -7,5 +7,5 @@ def contain_a(element)
 end
 
 def first_wa(array)
-  array.find { |item| item.start_with?("wa")}
+  array.find { |item| item.to_s.start_with?("wa")}
 end
