@@ -29,5 +29,6 @@ def merge_data(keys,data)
     name = thing[:first_name]
     data.each do |x|
       if x[name]
+        mergedPerson = x[name]
       
 end
