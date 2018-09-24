@@ -23,6 +23,9 @@ def count_elements(array)
 count
 end
 
-def merge_data(key,data)
-  key.merge(data)
+def merge_data(keys,data)
+  array = []
+  keys.each do |thing|
+    data.each do |x|
+      
 end
