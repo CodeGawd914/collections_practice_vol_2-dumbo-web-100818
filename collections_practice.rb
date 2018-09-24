@@ -13,3 +13,6 @@ end
 def remove_non_strings(array)
   array.delete_if {|item| item != item.to_s
 end
+
+def count_elements(array)
+  array.
