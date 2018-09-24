@@ -26,6 +26,8 @@ end
 def merge_data(keys,data)
   array = []
   keys.each do |thing|
+    name = thing[:first_name]
     data.each do |x|
+      if x[name]
       
 end
