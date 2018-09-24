@@ -9,3 +9,6 @@ end
 def first_wa(array)
   array.find { |item| item.to_s.start_with?("wa")}
 end
+
+def remove_non_strings(array)
+  array.
