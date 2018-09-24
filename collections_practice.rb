@@ -3,4 +3,4 @@ def begins_with_r(array)
 end
 
 def contain_a(element)
-  element.include? {
+  element.select {
