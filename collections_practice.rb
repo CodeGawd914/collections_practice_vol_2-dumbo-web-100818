@@ -42,18 +42,18 @@ def find_cool(array)
  array.select {|item| item.values.include?("cool") ? item : nil}
 end
 
-def organize_schools(element)
+def organize_schools(hash)
   haxh = {}
-   element.each do |key, value|
+   hash.each do |key, value|
     location = value[:location]
     if haxh[location]
-        haxh[location] << name
+        haxh[location] << key
     else
-      organized_schools[location] = []
-      organized_schools[location] << name
+      haxh[location] = []
+      haxh[location] << key
     end
   end
-  organized_schools
+  haxh
 end
   
 end
