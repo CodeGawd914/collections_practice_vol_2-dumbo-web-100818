@@ -42,4 +42,6 @@ def find_cool(array)
  array.select {|item| item.values.include?("cool") ? item : nil}
 end
 
-def 
+def organize_schools(array)
+  
+end
