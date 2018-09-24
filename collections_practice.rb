@@ -46,8 +46,8 @@ def organize_schools(element)
   haxh = {}
    element.each do |key, value|
     location = value[:location]
-    if organized_schools[location]
-      organized_schools[location] << name
+    if haxh[location]
+        haxh[location] << name
     else
       organized_schools[location] = []
       organized_schools[location] << name
