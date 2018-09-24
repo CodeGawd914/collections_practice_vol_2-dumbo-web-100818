@@ -17,7 +17,8 @@ end
 def count_elements(array)
   count = []
   array.uniq.each do |item| 
-    item[:count] = array.count(item) count.push(item)
+    item[:count] = array.count(item) 
+    count.push(item)
   end
 count
 end
