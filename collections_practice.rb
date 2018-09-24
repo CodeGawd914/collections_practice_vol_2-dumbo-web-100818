@@ -30,5 +30,7 @@ def merge_data(keys,data)
     data.each do |x|
       if x[name]
         mergedPerson = x[name]
+        mergedPerson[:first_name] = name
+        array << mergedPerson
       
 end
