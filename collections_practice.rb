@@ -42,3 +42,4 @@ def find_cool(array)
   if array.each {|item| item.values.include?("cool")}
   item
 end
+end
